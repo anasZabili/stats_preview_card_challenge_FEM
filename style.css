@@ -15,37 +15,29 @@ body {
 }
 
 .card-content {
-  flex: 1;
+  flex: 1 1;
   padding: 20px 80px;
 }
 .card-image {
-  flex: 1;
-  display: flex;
-  width: 100%;
-  height: auto;
+  flex: 1 1 200px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 600px;
   background: linear-gradient(
       hsla(277, 72%, 55%, 0.4),
       hsla(277, 72%, 55%, 0.4)
     ),
     url("./images/image-header-desktop.jpg");
-  /* background: #6db4f24b, url("./images/image-header-desktop.jpg"); */
-  /* background: rgba(28, 28, 185, 0.452), url("./images/image-header-desktop.jpg"); background-image: "./images/image-header-desktop.jpg"; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.test {
-  display: inline-block;
-  height: 100%;
-}
-
 .card-title {
   font-family: "Inter", sans-serif;
   font-weight: bold;
   color: hsl(0, 0%, 100%);
-  /* text-align: center; */
   font-size: 3.5em;
 }
 
@@ -58,13 +50,11 @@ body {
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 1.5em;
   font-weight: 200;
-  /* text-align: justify; */
 }
 
 .card-stats-section {
   display: flex;
   flex-direction: row;
-  /* margin: 70px; */
 }
 
 .stat {
