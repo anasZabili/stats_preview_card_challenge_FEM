@@ -99,11 +99,11 @@ a {
     order: 2;
   }
   .card-image {
-    flex: 1 1 200px;
+    flex: 1 1 300px;
     order: 1;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    min-height: 200px;
+    min-height: 300px;
     width: 100%;
     background: linear-gradient(
         hsla(277, 73%, 50%, 0.486),
@@ -151,7 +151,6 @@ a {
   .stat-description {
     font-family: sans-serif;
     font-weight: 200;
-    font-size: 1.5em;
     color: hsl(0, 0%, 100%);
     text-align: center;
     margin: 0;
