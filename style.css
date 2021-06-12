@@ -78,7 +78,6 @@ a {
   }
   .stat-title {
     color: hsla(0, 0%, 100%, 0.6);
-    /* font-size: 1.8em; */
     font-family: "Inter", sans-serif;
     font-weight: bold;
   }
@@ -88,12 +87,10 @@ a {
   .main {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap-reverse; */
     justify-content: center;
     align-items: center;
     background: hsl(244, 38%, 16%);
     border-radius: 10px;
-    /* margin: 15px 20px; */
   }
 
   .card-content {
